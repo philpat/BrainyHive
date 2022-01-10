@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.nav-link{
+   color:  #C75EA3 !important;
+}
+.nav-link:hover{
+    color: rgba(245, 134, 52, 1) !important;
+}
+.nav-link::after{
+    content: '';
+    background: rgba(245, 134, 52, 1);
+    margin: auto;
+    display: block;
+    height: 2px;
+    width: 0%;
+    transition: .5s;
+    color: rgba(245, 134, 52, 1);
+    border-radius: 5px;
+}
+.nav-link:hover::after{
+    width: 100%;
+    color: rgba(245, 134, 52, 1);
+}
+
+div{
+    list-style-type: none;
+}
+.change{
+    background-color: white;
+    border-radius: 500px;
+    
+}
+.change:hover{
+    box-shadow: 5px 10px 30px rgb(238, 232, 232) !important;
+    transition: all ease 0.2s !important;
+    transform: translateX(10px) !important;
+    transform: translateY(-5px) !important;
+}
+@media (max-width: 990px) {
+    .change{
+        border-radius: 8px;
+    }
+}
+.register{
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #C75EA3;
+    padding: 9px 25px;
+    color: rgba(199, 94, 163, 1) !important;
+}
+.register:hover{
+    color: #fff !important;
+    background-color: rgba(245, 134, 52, 1);
+    border: none;
+}
+.login{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #C75EA3;
+    margin: 10px; 
+}
+.login:hover{
+    color: #fff;
+    background-color: rgba(245, 134, 52, 1);; 
+}
+.navbar-toggler{
+    border: 1px solid #C75EA3 !important;
+}
+.navbar-toggler:focus{
+    box-shadow: 5px 5px 5px #C75EA3 !important;
+}
+.firstp{
+    padding: 180px 60px !important;
+}
+.firsth{
+    color: #C75EA3 ; 
+}
+.log{
+    background-color: #C75EA3;
+    color: #fff;
+    text-decoration: none;
+    line-height: 4em;
+}
+.log:hover{
+    color: #fff;
+    background-color: #7a0e54;
+}
+.bg1{
+    background: url(./images/bg-1.png), url(./images/bg-2.png) right top ;
+    background-size: cover, 50px;
+    background-position-y: 3em;
+    background-repeat: no-repeat; 
+}
+.num{
+    display: flex;
+    justify-content: space-evenly;
+    color: #C75EA3;
+    background-color: #eeb2d9;
+    border-radius: 10px;
+}
+.num span{
+    border-left: 2px solid !important;
+    padding: 5px;
+}
+section{
+    color: #C75EA3;
+}
+.first-sec{
+    padding: 20px;
+    margin-top: 50px !important;
+}
+.first-sec p:nth-of-type(2){
+    color: rgb(117, 115, 115); 
+}
+.first-sec>a{
+    color: #C75EA3 !important;
+}
+.bg3{
+    background: url(./images/bg-3.png) left bottom no-repeat;
+    background-size: 300px;
+    padding: 50px;
+    background-position-x: 10px;
+}
+.enroll a{
+    background-color: #C75EA3;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.enroll a:hover{
+    background-color: rgba(245, 134, 52, 1);;
+}
+
+.sec p:nth-of-type(2){
+    color: rgb(117, 115, 115);
+}
+.sec>a{
+    color: #C75EA3 !important;
+}
+.third p:nth-of-type(2){
+    color: rgb(117, 115, 115);
+}
+.third>a{
+    color: #C75EA3 !important;
+}
+.bg4{
+    background: url(./images/bg-4.png) left top no-repeat;
+    background-size: 150px;
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items:center !important;
+    text-align: center !important;
+    flex-direction: column;
+    margin: 160px 0px 20px 0px;
+    box-shadow: 5px 10px 30px rgba(0,0,0, 0.08);
+    border-radius: 40px 2px 40px 2px !important;
+}
+.card:hover{
+    transform: translateY(-10px) !important;
+    transition: all ease 0.2s !important;
+    box-shadow:  0px 4px 4px 0px #A8CF44 !important;
+}
+.card-img-top{
+    width: 40% !important;
+    object-fit: cover !important;
+    margin-top: -60px !important;
+    background: #C75EA3;
+}
+.card-body{
+    margin: 10px 50px !important;
+}
+.card-title{
+    color: #C75EA3;
+}
+main h2{
+    color: #C75EA3;
+}
+.choose{
+    background: url(./images/Rectangle\ 27.png) right top no-repeat, url(./images/Rectangle\ 196.png) left bottom no-repeat;
+    background-size: 600px;
+    background-color: #F0FFCA;
+}
+sub-section .row{
+    background-color: #C75EA3 !important;
+    border-radius: 30px;
+    background: url(./images/Rectangle\ 55.png) left bottom no-repeat;
+    background-size: 80px;
+}
+.download{
+    background-color: #A8CF44;
+    display: inline-block !important;
+}
+.download:hover{
+    background-color: rgba(245, 134, 52, 1);
+}
+.taekwon{
+    background-color: #2D3E02BF;
+}
+.team{
+    background-color: #f5eaf1;
+    color: #706A6E;
+}
+.team h1{
+    color: #C75EA3;
+}
+.ceo{
+    background: url(./images/Rectangle\ 70.png) no-repeat;
+    background-size: contain;
+    background-position-x: initial;
+    background-position-y: bottom;
+}
+.team h2{
+    color: #C75EA3;
+}
+.team-text{
+    color: #C75EA3;
+    text-align: center;
+}
+.teacher{
+    border-radius: 20px 0px 20px 0px;
+    background-color: #fff;
+}
+.teacher:hover{
+    transform: translateY(10px);
+    box-shadow: 5px 5px 15px 5px #eaebe7
+}
+.testimonial{
+    background-color: #C75EA3;
+}
+
+.bend{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.bend1{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.down{
+    margin: 100px 0px 50px 0px !important;
+}
+.footer{
+    color: #C75EA3;
+}
+.nav-link1{
+    color: #C75EA3 !important;
+}
+.up{
+    background-color: #C75EA3;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 10px;
+}
+.teacher{
+    position: relative;
+}
+.font-icons{
+    position: relative;
+    top: -50px;
+}
+.card-content {
+    border-radius: 0px 50px 0px 50px;
+    padding: 1em;
+    background-color: #fff;
+    position: relative;
+    margin-top: 50px;
+    color: #706A6E;
+}
+.card-title1, .card-text{
+    color: rgba(199, 94, 163, 1) !important;
+}
+.card-paragraph {
+    font-size: 16px;
+}
+
+.testimonial-img {
+    position: absolute;
+    top: -0.5em;
+    left: -1em;
+    background-color: #5f0740;
+    border-radius: 0px 80px 80px 80px;
+    object-fit: contain;
+    width: 70px;
+    height: 70px !important;
+}
+.separate-img{
+    position: absolute;
+    top: -1.5em;
+    right: -1em;
+    background-color: #5f0740;
+    border-radius: 0px 80px 80px 80px !important;
+    object-fit: contain;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+
+
+
+
+
+
+
+
